@@ -265,7 +265,7 @@ h2{
 .app__info{
 	background-image: url(../img/mobile.jpg);
 	background-repeat: no-repeat;
-	height: 778px;
+	min-height: 778px;
 	background-position: bottom left;
 	
 }
