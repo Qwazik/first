@@ -93,8 +93,4 @@ $('#popup__login, #popup__signup').click(function(e){
 	e.preventDefault();
 	var el = '.'+$(this).attr('id');
 	$(el).add('.popup__wrapper').fadeIn(); 
-}) 
-
-
-
-
+})
