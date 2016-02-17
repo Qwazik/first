@@ -97,11 +97,4 @@ $('#popup__login, #popup__signup').click(function(e){
 
 
 
-$(window).load(function(){
- 
-$("body").mCustomScrollbar({
-theme:"dark-thin"
-});
- 
-});
 
