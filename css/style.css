@@ -131,6 +131,8 @@ h2{
 	background-image: url(../img/mainbg.jpg);
 	background-size: cover;
 	height: 880px;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/logo.gif', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/logo.gif', sizingMethod='scale')";
 }
 
 .header__top {
@@ -264,6 +266,7 @@ h2{
 	background-image: url(../img/mobile.jpg);
 	background-repeat: no-repeat;
 	height: 778px;
+	background-size: bottom left;
 	
 }
 
