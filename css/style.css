@@ -380,6 +380,12 @@ h2{
 	transition: background-color, 0.5s;
 }
 
+.food__item:hover .food__text{
+	background-color: black;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+
 .food__text:hover{
 	background-color: black;
 	opacity: 0.5;
