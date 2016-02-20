@@ -131,8 +131,8 @@ h2{
 	background-image: url(../img/mainbg.jpg);
 	background-size: cover;
 	height: 880px;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/logo.gif', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/logo.gif', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/mainbg.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/mainbg.jpg', sizingMethod='scale')";
 }
 
 .header__top {
