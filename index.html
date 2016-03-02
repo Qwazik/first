@@ -2,19 +2,28 @@
 <html class="no-js" lang="ru">
 
 <head>
+
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>example1</title>
 	<meta name="description" content="example">
 	<meta name="author" content="Kovakin Alexey">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script>
+		function loadCss(hf){
+			var ms=document.createElement("link");ms.rel="stylesheet";
+			ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
+		}
+		loadCss("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+		loadCss("https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css");
+		loadCss("fonts/fonts.css");
+		loadCss("css/style.min.css");
+		loadCss("css/media.css");
+	</script>
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 	<!-- Place favicon.ico in the root directory -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
-	<link rel="stylesheet" href="fonts/fonts.css">
-	<link rel="stylesheet" href="css/style.min.css">
-	<link rel="stylesheet" href="css/media.css">
+
 
 	
 	<!--[if lt IE 9]>
@@ -310,7 +319,6 @@
 	<script src="js/main.js"></script>
 	<script src="js/libs/jquery-spincrement-master/jquery.spincrement.min.js"></script>
 	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
-<!--		<script src="jquery.mCustomScrollbar.concat.min.js"></script>-->
 </body>
 
 </html>

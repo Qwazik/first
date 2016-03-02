@@ -94,3 +94,13 @@ $('#popup__login, #popup__signup').click(function(e){
 	var el = '.'+$(this).attr('id');
 	$(el).add('.popup__wrapper').fadeIn(); 
 })
+
+		function loadCss(hf){
+			var ms=document.createElement("link");ms.rel="stylesheet";
+			ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
+		}
+		loadCss("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+		loadCss("https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css");
+		loadCss("fonts/fonts.css");
+		loadCss("css/style.min.css");
+		loadCss("css/media.css");
