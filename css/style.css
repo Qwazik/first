@@ -118,13 +118,14 @@ h2{
 }
 
 .main-wrapper {
-	min-width: 980px;
+	min-width: 92%;
 }
 
 .container {
 	margin: 0 auto;
-	max-width: 970px;
+	width: 90%;
 	overflow: hidden;
+	max-width: 970px;
 }
 
 .main__header {
@@ -164,7 +165,8 @@ h2{
 
 .get-started {
 	margin: 0 auto;
-	width: 500px;
+	width: 100%;
+	// min-width: 500px;
 	text-align: center;
 	color: white;
 }
@@ -179,7 +181,7 @@ h2{
 	font-size: 2.25em;
 	font-style: italic;
 	font-weight: bold;
-	margin-bottom: -25px;
+	// margin-bottom: -25px;
 }
 
 .get-started h1 {
@@ -190,16 +192,17 @@ h2{
 }
 
 .get-started a {
-	display: inline-block;
+	display: block;
 	color: white;
 	border: 3px solid white;
-	padding: 20px 77px;
+	padding: 20px 0;
 	border-radius: 3px;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: "latobold", sans-serif;
 	font-size: 1.125em;
-	margin: 23px 0 40px 0;
+	margin: 10px auto;
+	max-width: 300px;
 }
 
 .get-started p:last-child {
@@ -222,13 +225,17 @@ h2{
 	margin: 0 auto;
 }
 
+.col-4{
+	width: 33%;
+	float: left;
+}
+
 .features__item{
+	margin: 0 auto;
 	padding-top: 96px;
 	vertical-align: top;
-	display: inline-block;
 	width: 283px;
 	text-align: center;
-	margin-left: 55px;
 	background-image: url(../img/features-icon-set.png);
 	background-repeat: no-repeat;
 	background-position: 90px 0;
@@ -240,10 +247,6 @@ h2{
 
 .features__item:nth-child(3){
 	background-position: -1011px 0;
-}
-
-.features__item:first-child{
-	margin-left: 0px;
 }
 
 .f-item__header{
@@ -272,7 +275,8 @@ h2{
 
 .app__text{
 	margin-top: 80px;
-	width: 545px;
+	width: 56.77083333333333%;
+	max-width: 545px;
 	float: right;
 }
 
@@ -312,6 +316,8 @@ h2{
 }
 
 .slider{
+	margin: 0;
+	padding: 0;
 	text-align: center;
 	position: relative;
 	height: 250px;
@@ -324,6 +330,8 @@ h2{
 }
 
 .slider__controls{
+	margin: 0;
+	padding: 0;
 	font-size: 0px;
 	margin: 0 auto;
 	width: 60px;
@@ -421,12 +429,9 @@ h2{
 .number__item{
 	display: inline-block;
 	text-align: center;
-	margin-left: 84px;
+	width: 19%;
 }
 
-.number__item:first-child{
-margin-left: 0;
-}
 
 .number{
 	font-family: 'latobold', sans-serif;

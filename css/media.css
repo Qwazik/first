@@ -4,16 +4,82 @@
 }
  
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) { 
+@media (max-width: 979px) { 
+ .col-4{
+ 	width: 100%;
+ 	margin-bottom: 20px;
+ }
+ .app__info {
+    background-image: none;
+   }
+   .app__text{
+
+   	margin: 50px auto;
+   	float: none;
+   	text-align: center;
+
+   }
+
+   .app__info {
+   	min-height: auto;
+   }
+
+   .app__header {
+    background-position: center bottom;
+	}
+
+	.food__item { 
+		width:50%;
+	}
+
+
+
+	.get-started h1{
+		font-size: 3em;
+	}
+
+	.get-started p:first-child {
+		font-size: 1.5em;
+	}
+
+	// .number__item {
+	// 	margin-left: 31px;
+	// }
+	// .number {
+	// 	font-size: 1.25em;
+	// }
+		.main__header{
+		height: 700px;
+	}
+	
 
 }
+
+
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) { 
-
+		.number__item{
+		width: 100%;
+	}
 }
  
 /* Landscape phones and down */
 @media (max-width: 480px) { 
+		.header__user-bar, .header__logo {
+		float: none;
+		text-align: center;
+	}
 
+	.header__top{
+		margin-bottom: 100px;
+	}
+
+	.main__header{
+		height: 600px;
+	}
+
+	.footer__copyright, .footer__designed {
+		float: none;
+	}
 }
